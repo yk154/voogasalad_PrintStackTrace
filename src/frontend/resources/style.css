@@ -1,0 +1,130 @@
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #212c31;
+    /*-fx-background-color: transparent;*/
+    -fx-border-width: 0 0 1.5 0;
+    -fx-border-color: transparent transparent #212c31 transparent;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #1d2529;
+
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: black;
+}
+
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-font-weight: bold;
+    -fx-text-fill: #b4c3cb;
+}
+
+.tab:selected .tab-label {
+    -fx-alignment: CENTER;
+    -fx-font-weight: bold;
+    -fx-text-fill: #80cbc4;
+}
+
+.tablabel {
+    -fx-text-fill: #b4c3cb;
+}
+
+.tab:selected .tablabel {
+    -fx-text-fill: #80cbc4;
+}
+
+.tab-pane:focused > .tab-header-area > .headers-region > .tab:selected .focus-indicator {
+    -fx-border-color: transparent;
+}
+
+.addBtn {
+    -fx-background-color: transparent;
+}
+
+.addPane {
+    -fx-background-color: #fff;
+}
+
+.menu-bar {
+    -fx-background-color: #1d2529;
+    -fx-selection-bar: #2b383f;
+}
+
+/*.menu-item{*/
+/*-fx-background-color: #1d2529;*/
+/*}*/
+
+.menu-bar .label {
+    -fx-text-fill: #b4c3cb;
+}
+
+.sideView {
+    -fx-background-color: #b4c3cb;
+}
+
+.addBtn {
+    -fx-text-fill: #b4c3cb;
+}
+
+.myTree .tree-cell {
+    -fx-background-color: #212c31;
+    -fx-text-fill: #b4c3cb;
+}
+
+.tree-cell > .tree-disclosure-node > .arrow {
+    -fx-background-color: #b4c3cb;
+}
+
+
+.myTree .tree-cell:selected {
+    -fx-text-fill: #80cbc4;
+}
+
+.mySide {
+    -fx-focus-color: transparent;
+}
+
+.viewEntered :hover {
+    -fx-cursor: hand;
+}
+
+.viewEntered :focused {
+    -fx-cursor: hand;
+}
+
+.phaseBtn {
+    -fx-cursor: hand;
+    -fx-background-color: #343a40;
+    -fx-text-fill: white;
+}
+
+.vboxPhase {
+    -fx-padding: 20 0 0 0;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: #343a40;
+    -fx-font-weight: bold;
+    -fx-text-fill: #80cbc4;
+}
+
+.list-cell:filled:hover {
+    -fx-cursor: hand;
+}
+
+.cursorImage {
+    -fx-cursor: hand;
+}
+
+.mainTab {
+    -fx-background-color: #EBECDC;
+}
+
+.phasePane {
+    -fx-background-color: lightgray;
+}
+
+.mainPane {
+    -fx-background-color: #868c87;
+}

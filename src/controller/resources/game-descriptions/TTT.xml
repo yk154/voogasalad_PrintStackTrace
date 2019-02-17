@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>
+        TicTacToe
+    </name>
+    <info>
+        Tic-tac-toe is a strategy game for two players, X and O, who take turns marking the spaces in a 3×3 grid.
+    </info>
+    <reference>
+        src/engine/tictactoe/TicTacToe.xml
+    </reference>
+    <color>
+        Black
+    </color>
+    <displaygraphic>
+        TicTacToe_background.png
+    </displaygraphic>
+    <tags>
+        Strategy
+    </tags>
+</game>
